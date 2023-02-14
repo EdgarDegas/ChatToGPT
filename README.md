@@ -1,11 +1,7 @@
 # ChatToGPT
-
 利用苹果“快捷指令”制作的简易对话应用。
 
-- 支持通过 Siri 对话
-- 支持通过 iOS 共享菜单提供话题
-- 支持聊天记录转录
-- 支持通过聊天记录恢复上一次聊天
+
 
 https://user-images.githubusercontent.com/12840982/218711133-2940f753-7b9d-4a51-8dae-35a5d16e82d5.mov
 
@@ -47,9 +43,13 @@ https://www.icloud.com/shortcuts/75c9d736bece4a77b427a630f72ec086
 
 这个是你最终将会使用的指令。
 
-若要实现示例视频中的转录到备忘录的功能，在获取指令的时候，需要任意输入一个文件夹名。
+若要实现示例视频中的转录到备忘录的功能，在获取指令的时候，需要任意输入一个文件夹名，例如「我和ChatGPT的聊天记录」：
 
-在使用 Siri 来对话时，需要设置一个结束词来结束对话，否则你只能手动点击屏幕来结束。
+<img src="https://user-images.githubusercontent.com/12840982/218720349-70ebc255-a1be-44ac-aef3-67fb690dc270.PNG" alt="IMG_7322" style="width:300px;" />
+
+在使用 Siri 来对话时，需要设置一个结束词来结束对话，否则你只能手动点击屏幕来结束。默认为「再见」，请不要包含任何标点符号：
+
+<img src="https://user-images.githubusercontent.com/12840982/218720211-087d23fc-3d31-4411-a148-603ad6b11ab6.PNG" alt="IMG_7320" style="width:300px;" />
 
 https://www.icloud.com/shortcuts/01c779bec16d4439a57ab64399006c81
 
@@ -70,6 +70,9 @@ https://www.icloud.com/shortcuts/01c779bec16d4439a57ab64399006c81
 
 - 在「快捷指令」app 中，点击「开始聊天」。
 - 添加到主屏幕：在「快捷指令」app 中，长按「开始聊天」，点击「详细信息」，点击「添加到主屏幕」。
+
+<img src="https://user-images.githubusercontent.com/12840982/218720745-4c03af47-e489-452e-a11e-60da87969949.jpg" alt="IMG_7323" style="width:300px;" />
+
 - 对 Siri 说「开始聊天」。这种情况下，如果设置了「备忘录文件夹名」，将会自动打开「备忘录」app。
     - 已知 iOS 16.3 下可以正常使用 Siri，如果无法正常使用可以升级系统。
 
@@ -93,21 +96,22 @@ https://www.icloud.com/shortcuts/01c779bec16d4439a57ab64399006c81
 
 这个功能需要你配置了「开始聊天」指令的备忘录文件夹名。
 
-如果你在导入时未配置文件夹名，现在打开「快捷指令」app，长按「开始聊天」，点击「详细信息」，选择顶部的「设置」，点击「自定快捷指令...」，然后根据文本提示填入信息。
+
+
+如果你在导入时未配置，现在打开「快捷指令」app，长按「开始聊天」，点击「详细信息」，选择顶部的「设置」，点击「自定快捷指令...」，然后根据文本提示填入信息。
 
 
 
 在进行过一次对话后，聊天记录将被保存在备忘录的文件夹中。打开备忘录，全选聊天记录，点击「共享...」：
 
-![IMG_E40C182C80A3-1](https://user-images.githubusercontent.com/12840982/218717717-f2e97310-e340-4ef2-b6ed-ba9569066a9d.jpeg)
-
+<img src="https://user-images.githubusercontent.com/12840982/218717717-f2e97310-e340-4ef2-b6ed-ba9569066a9d.jpeg" alt="IMG_E40C182C80A3-1" style="width:300px;" />
 
 滚动到弹出的选单的底部，选择「开始聊天」：
 
-![IMG_9B3AAC76A9DA-1](https://user-images.githubusercontent.com/12840982/218717684-da91ff54-aebd-4561-9269-46c2de27b505.jpeg)
-
+<img src="https://user-images.githubusercontent.com/12840982/218717684-da91ff54-aebd-4561-9269-46c2de27b505.jpeg" alt="IMG_9B3AAC76A9DA-1" style="width:300px;" />
 
 接下来的对话将延续这份聊天记录进行。
 
 
-你也可以用这种方法，选择任意的文本共享给「开始聊天」快捷指令，然后与它讨论这段文本，比如让它为你翻译成其他语言等。
+
+你也可以用这种方法，选择任意的文本，共享给「开始聊天」快捷指令，然后与它讨论这段文本，比如让它为你翻译成其他语言等。
