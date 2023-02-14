@@ -1,7 +1,10 @@
 # ChatToGPT
 利用苹果“快捷指令”制作的简易对话应用。
 
-
+- 支持通过 Siri 对话
+- 支持通过 iOS 共享菜单提供话题
+- 支持聊天记录转录
+- 支持通过聊天记录恢复上一次聊天
 
 https://user-images.githubusercontent.com/12840982/218711133-2940f753-7b9d-4a51-8dae-35a5d16e82d5.mov
 
@@ -36,6 +39,8 @@ https://www.icloud.com/shortcuts/1501d6813ce34b018fa8a7e35c6207d1
 
 在获取这个指令时，需要根据提示，粘贴[之前步骤](https://github.com/EdgarDegas/ChatToGPT/edit/main/README.md#openai-账号与-api-key)获得的 API key。
 
+<img src="https://user-images.githubusercontent.com/12840982/218722332-512c35f0-29b2-4b4b-99f1-6f0fed6a00b4.jpeg" alt="根据提示输入 API Key" style="width:300px;" />
+
 https://www.icloud.com/shortcuts/75c9d736bece4a77b427a630f72ec086
 
 
@@ -45,11 +50,11 @@ https://www.icloud.com/shortcuts/75c9d736bece4a77b427a630f72ec086
 
 若要实现示例视频中的转录到备忘录的功能，在获取指令的时候，需要任意输入一个文件夹名，例如「我和ChatGPT的聊天记录」：
 
-<img src="https://user-images.githubusercontent.com/12840982/218720349-70ebc255-a1be-44ac-aef3-67fb690dc270.PNG" alt="IMG_7322" style="width:300px;" />
+<img src="https://user-images.githubusercontent.com/12840982/218720349-70ebc255-a1be-44ac-aef3-67fb690dc270.PNG" alt="根据提示输入文件夹名" style="width:300px;" />
 
 在使用 Siri 来对话时，需要设置一个结束词来结束对话，否则你只能手动点击屏幕来结束。默认为「再见」，请不要包含任何标点符号：
 
-<img src="https://user-images.githubusercontent.com/12840982/218720211-087d23fc-3d31-4411-a148-603ad6b11ab6.PNG" alt="IMG_7320" style="width:300px;" />
+<img src="https://user-images.githubusercontent.com/12840982/218720211-087d23fc-3d31-4411-a148-603ad6b11ab6.PNG" alt="根据提示输入结束词" style="width:300px;" />
 
 https://www.icloud.com/shortcuts/01c779bec16d4439a57ab64399006c81
 
@@ -71,7 +76,7 @@ https://www.icloud.com/shortcuts/01c779bec16d4439a57ab64399006c81
 - 在「快捷指令」app 中，点击「开始聊天」。
 - 添加到主屏幕：在「快捷指令」app 中，长按「开始聊天」，点击「详细信息」，点击「添加到主屏幕」。
 
-<img src="https://user-images.githubusercontent.com/12840982/218720745-4c03af47-e489-452e-a11e-60da87969949.jpg" alt="IMG_7323" style="width:300px;" />
+<img src="https://user-images.githubusercontent.com/12840982/218720745-4c03af47-e489-452e-a11e-60da87969949.jpg" alt="如何添加到主屏幕" style="width:300px;" />
 
 - 对 Siri 说「开始聊天」。这种情况下，如果设置了「备忘录文件夹名」，将会自动打开「备忘录」app。
     - 已知 iOS 16.3 下可以正常使用 Siri，如果无法正常使用可以升级系统。
@@ -104,11 +109,11 @@ https://www.icloud.com/shortcuts/01c779bec16d4439a57ab64399006c81
 
 在进行过一次对话后，聊天记录将被保存在备忘录的文件夹中。打开备忘录，全选聊天记录，点击「共享...」：
 
-<img src="https://user-images.githubusercontent.com/12840982/218717717-f2e97310-e340-4ef2-b6ed-ba9569066a9d.jpeg" alt="IMG_E40C182C80A3-1" style="width:300px;" />
+<img src="https://user-images.githubusercontent.com/12840982/218717717-f2e97310-e340-4ef2-b6ed-ba9569066a9d.jpeg" alt="将文本共享给指令" style="width:300px;" />
 
 滚动到弹出的选单的底部，选择「开始聊天」：
 
-<img src="https://user-images.githubusercontent.com/12840982/218717684-da91ff54-aebd-4561-9269-46c2de27b505.jpeg" alt="IMG_9B3AAC76A9DA-1" style="width:300px;" />
+<img src="https://user-images.githubusercontent.com/12840982/218717684-da91ff54-aebd-4561-9269-46c2de27b505.jpeg" alt="以共享的文本为基础开始聊天" style="width:300px;" />
 
 接下来的对话将延续这份聊天记录进行。
 
